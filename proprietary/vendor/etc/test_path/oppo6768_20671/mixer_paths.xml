@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<mixer>
+    <path name="MainMic_ReceiverEn">
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+		<ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="RCV Mux" value="Voice Playback" />
+		<ctl name="Audio_PGA1_Setting" value="18Db" />
+		<ctl name="Handset_PGA_GAIN" value="2Db" />
+		<ctl name="ADDA_DL_CH1 DL1_CH1" value="1" />
+		<ctl name="ADDA_DL_CH2 DL1_CH2" value="1" />
+    </path>
+    <path name="MainMic_ReceiverDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+		<ctl name="RCV Mux" value="Open" />
+		<ctl name="ADDA_DL_CH1 DL1_CH1" value="0" />
+		<ctl name="ADDA_DL_CH2 DL1_CH2" value="0" />
+    </path>
+	
+	<path name="RefMic2RcvLoopbackTestEn">
+    </path>
+    <path name="RefMic2RcvLoopbackTestDis">
+    </path>
+
+    <path name="PhoneMic_HpEn">
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+		<ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+        <ctl name="HPR Mux" value="Audio Playback" />
+        <ctl name="Headset_PGAL_GAIN" value="4Db" />
+        <ctl name="Headset_PGAR_GAIN" value="4Db" />
+    </path>
+    <path name="PhoneMic_HpDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+        <ctl name="HPL Mux" value="Open" />
+        <ctl name="HPR Mux" value="Open" />
+    </path>
+	
+    <path name="MainMic_HpLEn">
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+		<ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+        <ctl name="Headset_PGAL_GAIN" value="4Db" />
+    </path>
+    <path name="MainMic_HpLDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+        <ctl name="HPL Mux" value="Open" />
+    </path>
+	
+	<path name="RefMic_HpREn">
+    </path>
+    <path name="RefMic_HpRDis">
+    </path>
+	
+    <path name="MainMic_SpeakerEn">
+    </path>
+    <path name="MainMic_SpeakerDis">
+    </path>
+	
+    <path name="RefMic_SpeakerEn">
+    </path>
+    <path name="RefMic_SpeakerDis">
+    </path>
+
+    <path name="HpMic_ReceiverEn">
+        <ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN1" />
+        <ctl name="PGA R Mux" value="AIN1" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+		<ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="RCV Mux" value="Voice Playback" />
+		<ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="HpMic_ReceiverDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+		<ctl name="RCV Mux" value="Open" />
+    </path>
+
+    <path name="HpMic_HpEn">
+        <ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN1" />
+        <ctl name="PGA R Mux" value="AIN1" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+        <ctl name="HPR Mux" value="Audio Playback" />
+        <ctl name="Headset_PGAL_GAIN" value="4Db" />
+        <ctl name="Headset_PGAR_GAIN" value="4Db" />
+    </path>
+
+    <path name="HpMic_HpDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+        <ctl name="HPL Mux" value="Open" />
+        <ctl name="HPR Mux" value="Open" />
+    </path>
+
+    <path name="HpMic_SpeakerEn">
+        <ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN1" />
+        <ctl name="PGA R Mux" value="AIN1" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="LOL Mux" value="Playback" />
+        <ctl name="Ext_Speaker_Amp Switch" value="1" />
+    </path>
+    <path name="HpMic_SpeakerDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+        <ctl name="LOL Mux" value="Open" />
+        <ctl name="Ext_Speaker_Amp Switch" value="0" />
+    </path>
+
+    <path name="Receiver_ForceEn">
+		<ctl name="ADDA_DL_CH1 DL1_CH1" value="1" />
+		<ctl name="ADDA_DL_CH2 DL1_CH2" value="1" />
+		<ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="RCV Mux" value="Voice Playback" />
+		<ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="Receiver_ForceDis">
+		<ctl name="RCV Mux" value="Open" />
+		<ctl name="ADDA_DL_CH1 DL1_CH1" value="0" />
+		<ctl name="ADDA_DL_CH2 DL1_CH2" value="0" />
+    </path>
+
+    <path name="Speaker_ForceEn">
+        <ctl name="ADDA_DL_CH1 DL1_CH1" value="1" />
+        <ctl name="ADDA_DL_CH2 DL1_CH2" value="1" />
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="LOL Mux" value="Playback" />
+        <ctl name="Ext_Speaker_Amp Switch" value="1" />
+    </path>
+    <path name="Speaker_ForceDis">
+        <ctl name="LOL Mux" value="Open" />
+        <ctl name="Ext_Speaker_Amp Switch" value="0" />
+        <ctl name="ADDA_DL_CH1 DL1_CH1" value="0" />
+        <ctl name="ADDA_DL_CH2 DL1_CH2" value="0" />
+    </path>
+    <path name="SingleMicTest_MainEn">
+        <ctl name="ADC L Mux" value="Left Preamplifier" />
+        <ctl name="ADC R Mux" value="Right Preamplifier" />
+        <ctl name="PGA L Mux" value="AIN0" />
+        <ctl name="PGA R Mux" value="AIN0" />
+		<ctl name="Mic Type Mux" value="DCC" />
+        <ctl name="Audio_PGA1_Setting" value="18Db" />
+    </path>
+    <path name="SingleMicTest_MainDis">
+        <ctl name="Mic Type Mux" value="Idle" />
+        <ctl name="ADC L Mux" value="Idle" />
+        <ctl name="ADC R Mux" value="Idle" />
+        <ctl name="PGA L Mux" value="None" />
+		<ctl name="PGA R Mux" value="None" />
+    </path>
+
+    <path name="ReceiverEn">
+		<ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="RCV Mux" value="Voice Playback" />
+    </path>
+    <path name="ReceiverDis">
+		<ctl name="RCV Mux" value="Open" />
+    </path>
+    <path name="SpeakerProfile">
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="LOL Mux" value="Playback" />
+        <ctl name="Ext_Speaker_Amp Switch" value="1" />
+    </path>
+    <path name="EngineerModeReceiverTestEn">
+		<ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="RCV Mux" value="Voice Playback" />
+        <ctl name="Handset_PGA_GAIN" value="2Db" />
+    </path>
+    <path name="EngineerModeReceiverTestDis">
+		<ctl name="RCV Mux" value="Open" />
+    </path>
+
+    <path name="NoneTestEn">
+    </path>
+    <path name="NoneTestDis">
+    </path>
+    <settings name="playcard" value="0" />
+    <settings name="playdevice" value="0" />
+    <settings name="playspkdevice" value="0" />
+    <settings name="loopbackcard" value="0" />
+    <settings name="loopbackdevice" value="10" />
+    <settings name="spkdevice" value="0" />
+    <settings name="headphonedevice" value="30" />
+    <settings name="prjVersionPath" value="/proc/oppoVersion/prjVersion" />
+    <settings name="wavefilepath" value="/vendor/etc/spk.wav" />
+    <settings name="wave112filepath" value="/vendor/etc/file112.wav" />
+    <settings name="loopback_mictype" value="loopbacktest=main" />
+</mixer>

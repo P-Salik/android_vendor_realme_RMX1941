@@ -6,16 +6,6 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "SoterService",
-	owner: "realme",
-	apk: "proprietary/app/SoterService/SoterService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
 	name: "EmCamera",
 	owner: "realme",
 	apk: "proprietary/vendor/app/EmCamera/EmCamera.apk",

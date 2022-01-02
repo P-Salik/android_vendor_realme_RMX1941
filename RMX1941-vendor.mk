@@ -122,7 +122,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.oppo.hardware.hypnus@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.hypnus@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.oppo.hardware.ktv@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.ktv@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.oppo.hardware.oiface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.oppo.hardware.oiface@1.0-service \
-    vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.trustonic.soter@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.soter@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.trustonic.tee@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.tee@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor.trustonic.teeregistry@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.trustonic.teeregistry@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/vendor_transfer:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor_transfer \
@@ -491,7 +490,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.hypnus@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.ktv@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.oppo.hardware.oiface@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.oiface@1.0-service.rc \
-    vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.trustonic.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.soter@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.trustonic.tee@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor.trustonic.teeregistry@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.teeregistry@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/vendor_engineermode.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_engineermode.rc \
@@ -1105,7 +1103,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libIMGegl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libIMGegl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/libMcTeeSoter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcTeeSoter.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libMegviiHumBokehPost-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMegviiHumBokehPost-mtk.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
@@ -1123,7 +1120,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX386PdafLibraryWrapper.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibrary.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/libSoterProvision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSoterProvision.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libTBaseProvisioning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTBaseProvisioning.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libTBaseProvisioningAT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTBaseProvisioningAT.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
@@ -1435,7 +1431,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/s5k3l6_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k3l6_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/s5k3l6_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/s5k3l6_mipi_raw_tuning.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/sensors.ap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ap.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/soter_attk_provision.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soter_attk_provision.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/sp2509v_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sp2509v_mipi_raw_IdxMgr.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/sp2509v_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sp2509v_mipi_raw_tuning.so \
@@ -1500,7 +1495,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.oppo.hardware.oiface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.oiface@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.hostapd@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oppo.hardware.wifi.supplicant@1.0.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.soter@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.trustonic.tee.tui@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee.tui@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.trustonic.tee@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.tee@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/vendor.trustonic.teeregistry@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.trustonic.teeregistry@1.0.so \
@@ -1515,6 +1509,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     EmCamera \
     SensorHub \
-    SoterService \
     android.hardware.drm@1.3-service.widevine \
     vibrator-mtk-default

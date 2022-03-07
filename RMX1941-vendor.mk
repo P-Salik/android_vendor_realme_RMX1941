@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-mediatek \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.health@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service.trustonic:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service.trustonic \
-    vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.light@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service-mediatek \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.memtrack@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.memtrack@1.0-service \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.secure_element@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.0-service-mediatek \
     vendor/realme/RMX1941/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
@@ -1531,7 +1530,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-mediatek.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.health@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service.trustonic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service.trustonic.rc \
-    vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.light@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service-mediatek.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.memtrack@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.memtrack@1.0-service.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.0-service-mediatek.rc \
     vendor/realme/RMX1941/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
@@ -1913,7 +1911,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.3-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
@@ -1932,7 +1929,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcGatekeeper.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libMcTeeKeymaster.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib/hw/lights.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/memtrack.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6765.so \
@@ -2229,7 +2225,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.memtrack@1.0-impl.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.3-impl-mediatek.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
@@ -2249,7 +2244,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/libMcGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcGatekeeper.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/libMcTeeKeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libMcTeeKeymaster.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
-    vendor/realme/RMX1941/proprietary/vendor/lib64/hw/lights.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/memtrack.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.mt6765.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.mt6765.so \

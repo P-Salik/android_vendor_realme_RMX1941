@@ -2613,6 +2613,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_utility.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverno.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libvoh264enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvoh264enc.so \
+    vendor/realme/RMX1941/proprietary/vendor/lib64/libwifi-hal-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-mtk.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libwo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwo.so \
     vendor/realme/RMX1941/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \

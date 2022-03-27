@@ -21,6 +21,8 @@
     <scenario powerhint="INTERACTION">
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1617000"></data>
         <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1261000"></data>
+        <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_DURATION" param1="1000000000"></data>
+        <data cmd="PERF_RES_POWERHAL_TOUCH_BOOST_EAS_BOOST" param1="50"></data>
         <data cmd="PERF_RES_CPUFREQ_CCI_FREQ" param1="1"></data>
         <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
     </scenario>

@@ -711,12 +711,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1941/proprietary/vendor/firmware/tp/18540/gt9xx_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18540/gt9xx_fw_signed.bin \
     vendor/realme/RMX1941/proprietary/vendor/firmware/tp/18540/touch_FT5446_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18540/touch_FT5446_fw.bin \
     vendor/realme/RMX1941/proprietary/vendor/firmware/tp/18540/touch_FT5446_fw_signed.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tp/18540/touch_FT5446_fw_signed.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/SAMSUNG-KM2H7001CM-B518.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SAMSUNG-KM2H7001CM-B518.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SAMSUNG-KM8V7001JM-B810.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/SKhynix-H9HQ16AECMMDAR.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SKhynix-H9HQ16AECMMDAR.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/SKhynix-H9HQ16AFAMMDAR.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SKhynix-H9HQ16AFAMMDAR.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/SKhynix-H9HQ53AECMMDAR.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/SKhynix-H9HQ53AECMMDAR.bin \
-    vendor/realme/RMX1941/proprietary/vendor/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/ufs/move_target_ufs_fw_to_opporeserve1.sh \
     vendor/realme/RMX1941/proprietary/vendor/lib/android.frameworks.faceservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.faceservice@1.0.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/realme/RMX1941/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
